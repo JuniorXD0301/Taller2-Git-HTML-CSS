@@ -3,16 +3,15 @@
 <head>
 	<meta charset="utf-8">
 	<title>Formulario de Contacto</title>
+	<link rel="stylesheet" type="text/css" href="css/contacto.css">
 </head>
 <body> <!-- Barra de navegación-->
 	<!--Apliquele CSS bien melo-->
 	<nav>
-		<a href="index.html">Inicio</a> 
-		<a href="items.html">Ítems</a>
-		
+		<a href="index.html" class="nav-enlace">Inicio</a> 
+		<a href="items.html" class="nav-enlace">Ítems</a>		
 	</nav>
-	<!--Estos son los items-->
-	<!--Puras imagenes de perritus bomnitos. Recuerde que son tres por fila, se los puse del mismo tamaño para que no tuviera problemas si le hacia alguna decoración o algo-->
+	<!--Este es el formulario-->
 	<h1 align="center">¡Comunícate con nosotros!</h1>
 	<form action="https://www.google.com/" method="get" enctype="multipart/form-data">
 		<fieldset>
@@ -30,7 +29,7 @@
 		
 		</br>
 		<div>Marca la opción en la que estás interesado <br>
-		<select name="Opciones"> 
+		<select name="Opciones" class="opciones"> 
 		  <option value="Adopción">Adopción</option>
 		  <option value="Donación">Donación</option>
 		  <option value="Equipo">Ser parte de nuestro equipo</option>
@@ -38,15 +37,10 @@
 		</select>
 		</br>
 		<br>
-		<input type="submit" value="Submit">
-		<input type="reset" name="limpiar" value="Borrar los datos introducidos" />
+		<input type="submit" value="Submit" class="button">
+		<input type="reset" name="limpiar" value="Borrar los datos introducidos" / class="button">
 	</form>
-	<div>	
-		
-	</div>
 	<!--Este es es el pie de pagina-->
-	<div>
-		Pie de página
-	</div>
+	<footer>&copy;Todos los derechos reservados</footer>
 </body>
 </html>

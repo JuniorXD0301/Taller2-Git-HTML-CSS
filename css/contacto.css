@@ -1,0 +1,49 @@
+/*barra de navegacion*/
+.nav-enlace{
+	display: inline-block;
+	background: #D9FA4B;
+	color: #2E14F7;
+	padding: 10px 30px;
+	text-decoration: none;
+	font-size: 15px;
+}
+/*body*/
+body{
+	background-color: #F0B865;
+}
+h1{
+	font-style: italic;
+	color: #274378;
+}
+form{
+	font-family: georgia;
+	font-size: 20px;
+	color: #4B25AF;
+}
+fieldset{
+	border-width: 15px;
+}
+.opciones{
+	font-size: 15px;
+	border-width: 2px;
+	border-color: #0F485F;
+}
+.button{
+	font-size: 15px;
+	border-color: #0F485F;
+}
+.button:hover{
+	font-weight: bold;
+}
+/*Pie de página*/
+footer{
+	height: 40px;
+	background: #D9FA4B;
+	margin-top: 50px;
+	color: #2E14F7;
+	font-weight: 800;
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-top: 20px;
+}
