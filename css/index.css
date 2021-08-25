@@ -1,8 +1,8 @@
 /*barra de navegacion*/
 .nav-index{
     display: inline-block;
-	background: #D9FA4B;
-	color: #2E14F7;
+	background: #ad7f39;
+	color: #1b0d86;
 	padding: 10px 30px;
 	text-decoration: none;
 	font-size: 15px; 
@@ -17,6 +17,7 @@ h1{
 	color: #0c1f42;
 }
 
+/*Para los títulos*/
 .title{
     text-align: center;
     text-shadow: 1px 1px;
@@ -26,19 +27,21 @@ h1{
 
 }
 
-
+/*Borde del texto*/
 fieldset{
 	border-width: 5px;
     border-style: inherit;
     text-align: justify;
 }
 
+/*Texto con lista ul*/
 .textoul{
     width: 55%;
     font-style: italic;
     font-size: 18px;
 }
 
+/*Texto sin lista ul*/
 .textosinul{
     
     font-style: italic;
@@ -51,9 +54,9 @@ fieldset{
 /*Pie de página*/
 footer{
 	height: 40px;
-	background: #D9FA4B;
+	background: #ad7f39;
 	margin-top: 50px;
-	color: #2E14F7;
+	color: #1b0d86;
 	font-weight: 800;
 	font-size: 17px;
 	letter-spacing: 2px;

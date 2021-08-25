@@ -1,0 +1,58 @@
+/*barra de navegacion*/
+.nav-items{
+    display: inline-block;
+	background: #ad7f39;
+	color: #1b0d86;
+	padding: 10px 30px;
+	text-decoration: none;
+	font-size: 15px; 
+}
+
+/*body*/
+body{
+	background-color: #F0B865;
+}
+
+/*Los títulos*/
+.title{
+    text-align: center;
+    text-shadow: 1px 1px;
+    font-size: xx-large;
+    font-style: italic;
+    text-shadow: 2px 2px red;
+
+}
+
+/*Configuración de las imagenes*/
+
+img{
+    height: auto;
+    width: auto;
+    width: 400px;
+    height: 320px;
+    margin: 0.5%;
+}
+
+.items {
+    border: 1px solid #999;
+    box-sizing: border-box;
+    color: #444;
+    display: inline-block;
+    padding: 1em;
+    width: 33%;
+
+    
+  }
+
+/*Pie de página*/
+footer{
+	height: 40px;
+	background: #ad7f39;
+	margin-top: 50px;
+	color: #1b0d86;
+	font-weight: 800;
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-top: 20px;
+}

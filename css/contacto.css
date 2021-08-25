@@ -1,8 +1,8 @@
 /*barra de navegacion*/
 .nav-enlace{
 	display: inline-block;
-	background: #D9FA4B;
-	color: #2E14F7;
+	background: #ad7f39;
+	color: #1b0d86;
 	padding: 10px 30px;
 	text-decoration: none;
 	font-size: 15px;
@@ -38,9 +38,9 @@ fieldset{
 /*Pie de página*/
 footer{
 	height: 40px;
-	background: #D9FA4B;
+	background: #ad7f39;
 	margin-top: 50px;
-	color: #2E14F7;
+	color: #1b0d86;
 	font-weight: 800;
 	font-size: 17px;
 	letter-spacing: 2px;
