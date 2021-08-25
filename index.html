@@ -3,19 +3,28 @@
 <head>
 	<meta charset="utf-8">
 	<title>Pagina principal</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
 	<!-- Barra de navegación-->
 	<!--Apliquele CSS bien melo-->
 	<nav>
-		<a href="items.html">Ítems</a> 
-		<a href="contacto.html">Contacto</a>
+		<a href="items.html" class="nav-index">Ítems</a> 
+		<a href="contacto.html" class="nav-index">Contacto</a>
 		
 	</nav>
+
+	<div>
+		<h1 align="center" class="title">La vida es mejor con una mascota, ¡Adopta, no compres!</h1>
+		<h1 align="center" class="title">Datos curiosos:</h1>
+	</div>
 	<!--Contenido 1 // Este es el contenido que va a al lado izquierdo-->
 	<div>
-		<h4>Datos curiosos:</h4>
-		<ul>
+		<fieldset>
+		<p>
+		<img src="img/huellas.jpg" align=right alt="Foto perro" width="520">
+		</p>
+		<ul class="textoul">
 			<li>Los perros nacen sordos y ciegos.</li>
 			<li>La nariz de los perros puede llegar a tener hasta 300 millones de receptores olfativos.</li>
 			<li>La inteligencia de los canes es similar a la de un niño de 2 años.</li>
@@ -27,16 +36,22 @@
 			<li>La palabra Collie, de todas las razas de collies, significa negro, y ese nombre viene porque estos perros solían cuidar ovejas de cara negra.</li>
 			<li>Los perros pueden contagiarse de los bostezos de sus dueños.</li>
 		</ul>
+		</fieldset>
+		
 	</div>
 	<!--Contenido 2 // Este es el contenido que va a al lado derecho-->
 	<div>
-		<h2>El perro: el mejor amigo del hombre</h2>
-		<p>El perro es un animal fascinante, y desde hace más de 40 mil años que fue domesticado, (aunque hay expertos que datan la domesticación de este animal hace más de 100 mil años), desde ese momento el <em>Canis lupus familiaris</em>, más conocido como perro, no ha dejado de sorprendernos gracias a su innegable lealtad, gran valentía, pero, sobre todo, por su enorme habilidad para amarnos como especie humana; todo eso, además de muchas otras cosas más, hicieron de esta relación simbiótica humano-canina, la relación perfecta, y desde que comenzó la domesticación de este animal, hemos establecido fuertes lazos y un vínculo emocional inquebrantable que ha sobrevivido al paso miles de años, en una relación muy especial que evolucionó de ser meramente funcional, para convertirse en una bella amistad en la cual, <strong>los perros son nuestros cómplices.</strong></p>
-		<img src="img/perro.jpg" alt="foto de un perro" title="perro" width="640">
+		<h2 align="center" class="title">El perro: el mejor amigo del hombre</h2>
+		<img src="img/perro.jpg" align=left alt="foto de un perro" title="perro" width="520">
+		<fieldset align=right>
+		<p class="textosinul" >El perro es un animal fascinante, y desde hace más de 40 mil años que fue domesticado, (aunque hay expertos que datan la domesticación de este animal hace más de 100 mil años), desde ese momento el <em>Canis lupus familiaris</em>, más conocido como perro, no ha dejado de sorprendernos gracias a su innegable lealtad, gran valentía, pero, sobre todo, por su enorme habilidad para amarnos como especie humana; todo eso, además de muchas otras cosas más, hicieron de esta relación simbiótica humano-canina, la relación perfecta, y desde que comenzó la domesticación de este animal, hemos establecido fuertes lazos y un vínculo emocional inquebrantable que ha sobrevivido al paso miles de años, en una relación muy especial que evolucionó de ser meramente funcional, para convertirse en una bella amistad en la cual, <strong>los perros son nuestros cómplices.</strong></p>
+		</fieldset>
 	</div>
 	<!--Este es es el pie de pagina-->
 	<div>
-		Pie de página
+		<footer>&copy;Todos los derechos reservados</footer>
+		
 	</div>
+	
 </body>
 </html>
