@@ -84,7 +84,7 @@ body{
 
 /*Configuración de las imagenes*/
 
-img{
+.items img{
     height: auto;
     width: auto;
     width: 400px;
