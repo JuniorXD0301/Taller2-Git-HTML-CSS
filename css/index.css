@@ -1,4 +1,62 @@
 /*barra de navegacion*/
+
+  
+  .header {
+	background: #ad7f39;
+	width: 100%;
+	clear: both;
+	content:'';
+	display: table;
+  }
+  
+  .menu {
+	width: 900px;
+	margin: 0 auto;
+  }
+  
+  .bar {
+	width: 120px;
+	height: 50px;
+	float: left;
+	padding: 8px;
+  
+  }
+  
+  .navbar {
+	float: right;
+  }
+  
+  nav ul li {
+	list-style: none;
+	margin-left: 75px;
+	padding: 12px 0;
+	float: left;
+	position: relative;
+  }
+  
+  nav ul li a {
+	text-decoration: none;
+	color: #1b0d86;
+	font-weight: bold;
+  }
+  
+  nav ul li a::before {
+	display: block;
+	content: '';
+	width: 0%;
+	background: #444;
+	height: 5px;
+	top:0;
+	position: absolute;
+	transition: width 0.2s;
+  }
+  
+  nav ul li a:hover::before {
+	width: 100%;
+  }
+
+
+/* Anterior barra de navegación 
 .nav-index{
     display: inline-block;
 	background: #ad7f39;
@@ -7,7 +65,7 @@
 	text-decoration: none;
 	font-size: 15px; 
 }
-
+/*
 /*body*/
 body{
 	background-color: #F0B865;
